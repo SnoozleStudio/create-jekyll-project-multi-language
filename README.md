@@ -1,3 +1,5 @@
-1 Install all dependency - * yarn
-2 development - * make serve
-3 production - * make build
+Install all dependency: yarn
+
+development: make serve
+
+production: make build
