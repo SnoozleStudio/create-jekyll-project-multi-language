@@ -1,0 +1,21 @@
+// Modules and Variables
+@import 'partials/base';
+
+// Partials
+@import "partials/reset";
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/figures";
+@import "partials/grids";
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: $white;
+  color: $black;
+}
+

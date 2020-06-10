@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Welcome to my website!"
+lang: en
+lang-ref: welcome-to-my-website
+---
+
+Blog post: first blog post!
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eleifend, libero at vehicula efficitur, velit lacus
+mollis nunc, vel fermentum nulla arcu ac dui. Vivamus libero dui, accumsan vitae blandit quis, suscipit tincidunt
+turpis. Nunc dapibus suscipit ornare. Nunc a lobortis quam. Fusce sollicitudin scelerisque convallis. Maecenas risus
+ligula, rhoncus nec mollis fringilla, varius ut lacus. Fusce ultricies, dolor nec suscipit ultrices, leo lectus aliquet
+sem, vel aliquam diam ipsum ut turpis. Etiam vestibulum eros eu mattis lobortis. Vivamus lobortis, magna tempus cursus
+luctus, magna augue dignissim lorem, at finibus est nibh nec leo. Quisque ac velit vestibulum, ullamcorper lacus a,
+dignissim ex.

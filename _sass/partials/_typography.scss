@@ -1,0 +1,36 @@
+// typography
+@font-face {
+  font-family: 'Gandhi Serif';
+  src: url('/assets/fonts/GandhiSerif-Regular-webfont.eot');
+  src: url('/assets/fonts/GandhiSerif-Regular-webfont.woff');
+  src: url('/assets/fonts/GandhiSerif-Regular-webfont.ttf');
+  src: url('/assets/fonts/GandhiSerif-Regular-webfont.svg');
+}
+
+@font-face {
+  font-family: 'Gandhi Serif';
+  src: url('/assets/fonts/GandhiSerif-Italic-webfont.eot');
+  src: url('/assets/fonts/GandhiSerif-Italic-webfont.woff');
+  src: url('/assets/fonts/GandhiSerif-Italic-webfont.ttf');
+  src: url('/assets/fonts/GandhiSerif-Italic-webfont.svg');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gandhi Serif';
+  src: url('/assets/fonts/GandhiSerif-Bold-webfont.eot');
+  src: url('/assets/fonts/GandhiSerif-Bold-webfont.woff');
+  src: url('/assets/fonts/GandhiSerif-Bold-webfont.ttf');
+  src: url('/assets/fonts/GandhiSerif-Bold-webfont.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Gandhi Serif';
+  src: url('/assets/fonts/GandhiSerif-BoldItalic-webfont.eot');
+  src: url('/assets/fonts/GandhiSerif-BoldItalic-webfont.woff');
+  src: url('/assets/fonts/GandhiSerif-BoldItalic-webfont.ttf');
+  src: url('/assets/fonts/GandhiSerif-BoldItalic-webfont.ttf');
+  font-weight: bold;
+  font-style: italic;
+}

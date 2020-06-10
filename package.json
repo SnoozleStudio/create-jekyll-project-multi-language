@@ -1,0 +1,12 @@
+{
+  "name": "create-jekyll-project",
+  "version": "1.0.0",
+  "description": "⚡ A generator to kickstart your Jekyll project in a few seconds!",
+  "main": "index.js",
+  "author": "SnoozleStudio <info@snoozle.studio> (https://www.snoozle.studio)",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0"
+  }
+}
