@@ -1,7 +1,7 @@
 console.log(
   '\n' +
-  'Hello lurker!\n' +
-  'We are SnoozleStudio!\n' +
+  'Hello!\n' +
+  'Developed by SnoozleStudio!\n' +
   'www.snoozle.studio\n' +
   '                                                                                                          \n' +
   '███████╗███╗   ██╗ ██████╗  ██████╗ ███████╗██╗     ███████╗███████╗████████╗██╗   ██╗██████╗ ██╗ ██████╗ \n' +
