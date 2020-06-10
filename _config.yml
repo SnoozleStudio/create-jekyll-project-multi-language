@@ -1,6 +1,8 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: / # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
+
+backer: "/" # l'indietreggiatore
 
 sass:
   sass_dir: _sass
@@ -9,5 +11,6 @@ exclude:
  - Makefile
  - package.json
  - yarn.lock
+ - README.md
 
 version: "0.1"

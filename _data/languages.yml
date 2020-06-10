@@ -1,6 +1,8 @@
 en:
   label: English
   icon: 🇬🇧
+  id: en
 it:
   label: Italiano
   icon: 🇮🇹
+  id: it

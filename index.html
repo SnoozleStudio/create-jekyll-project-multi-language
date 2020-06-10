@@ -6,6 +6,44 @@ title: "INDEX WEBSITE"
 <ul class="languages">
   {% for lang in site.data.languages %}
   {% assign language = lang[1] %}
-  <li><a href="{{site.baseurl}}{{lang[0]}}">{{language.icon}} {{ language.label }} ({{ language.code }})</a></li>
+  <li><a id="{{ language.id }}" {% comment %} onclick="{{ language.id }}Cookie(30)" {% endcomment %}
+      href="{{site.baseurl}}{{lang[0]}}">
+      {{language.icon}} {{ language.label }} ({{ language.code }})
+    </a></li>
   {% endfor %}
 </ul>
+
+{% comment %}
+<script>
+  function goHome() {
+    let cookieStatus = document.cookie;
+
+    if (cookieStatus == null) {
+      return;
+    }
+
+    if (cookieStatus == "lang=en") {
+      window.location.replace("{{site.baseurl}}/en");
+    };
+
+    if (cookieStatus == "lang=it") {
+      window.location.replace("{{site.baseurl}}/it");
+    };
+  }
+  goHome();
+
+  function enCookie(exdays) {
+    let d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    let expires = " expires=" + d.toUTCString();
+    document.cookie = "lang=en;" + expires;
+  }
+
+  function itCookie(exdays) {
+    let d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    let expires = " expires=" + d.toUTCString();
+    document.cookie = "lang=it;" + expires;
+  }
+</script>
+{% endcomment %}
