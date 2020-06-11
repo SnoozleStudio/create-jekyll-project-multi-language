@@ -15,5 +15,24 @@
   {% endif %}
   {% endfor %}
 
+  <a href="javascript:void(0)" onclick="changeLang()">cambia preferenza lingua</a>
+
   <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
 </nav>
+
+
+<script>
+  function changeLang() {
+    let cookieSet = document.cookie;
+
+    if (cookieSet == "lang=en") {
+      document.cookie = "lang=en; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+      window.location.replace("{{site.baseurl}}/");
+    };
+    
+    if (cookieSet == "lang=it") {
+      document.cookie = "lang=it; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/";
+      window.location.replace("{{site.baseurl}}/");
+    };
+  }
+</script>

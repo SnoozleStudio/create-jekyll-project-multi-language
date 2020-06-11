@@ -6,14 +6,14 @@ title: "INDEX WEBSITE"
 <ul class="languages">
   {% for lang in site.data.languages %}
   {% assign language = lang[1] %}
-  <li><a id="{{ language.id }}" {% comment %} onclick="{{ language.id }}Cookie(30)" {% endcomment %}
-      href="{{site.baseurl}}{{lang[0]}}">
+  <li>
+    <a id="{{ language.id }}" onclick="{{ language.id }}Cookie(365)" href="{{site.baseurl}}{{lang[0]}}">
       {{language.icon}} {{ language.label }} ({{ language.code }})
-    </a></li>
+    </a>
+  </li>
   {% endfor %}
 </ul>
 
-{% comment %}
 <script>
   function goHome() {
     let cookieStatus = document.cookie;
@@ -46,4 +46,3 @@ title: "INDEX WEBSITE"
     document.cookie = "lang=it;" + expires;
   }
 </script>
-{% endcomment %}
