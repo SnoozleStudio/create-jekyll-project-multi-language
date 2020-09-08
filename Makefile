@@ -26,6 +26,7 @@ include-yarn-deps:
 	cp node_modules/@fortawesome/fontawesome-free/css/all.min.css $(VENDOR_DIR)
 	cp node_modules/@fortawesome/fontawesome-free/js/all.min.js $(VENDOR_DIR)
 	cp -r node_modules/@fortawesome/fontawesome-free/webfonts $(ASSETS_DIR)
+	cp node_modules/swup/dist/swup.min.js $(VENDOR_DIR)
 
 build-deps: clean install include-yarn-deps
 build: build-deps

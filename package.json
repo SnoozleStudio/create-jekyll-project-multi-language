@@ -7,6 +7,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0"
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "swup": "^2.0.11"
   }
 }
